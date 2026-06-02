@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hancy Estremos | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Special+Elite&family=Courier+Prime&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <nav>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="section-wrap">
+      <div class="hero-row">
+        <img src="hancy.png" alt="Hancy Estremos" class="profile-img" width="220" height="220" />
+        <div class="hero-text">
+          <h1 class="hero-heading">Hi, I'm <span class="text-gold">Hancy</span></h1>
+          <p class="hero-lead">I build simple, clean digital experiences with thoughtful design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-wrap">
+      <h2 class="section-title">About</h2>
+      <div class="section-rule"></div>
+      <p class="about-text">I am an Information Technology student aspiring to become a web developer. I am passionate about creating websites and applications that are fast, intuitive, and user-friendly. I focus on clean front-end development and enjoy building practical projects.</p>
+      <p class="about-text">I am continuously learning and improving my skills in HTML, CSS, Bootstrap, and Java, while actively developing projects to grow my portfolio and gain real-world experience.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-wrap">
+      <h2 class="skills-heading">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="html.webp" alt="HTML" class="skill-icon-img" width="72" height="72" />
+          <p class="skill-name">HTML</p>
+        </div>
+        <div class="skill-card">
+          <img src="css.webp" alt="CSS" class="skill-icon-img" width="72" height="72" />
+          <p class="skill-name">CSS</p>
+        </div>
+        <div class="skill-card">
+          <img src="java.webp" alt="Java" class="skill-icon-img" width="72" height="72" />
+          <p class="skill-name">Java</p>
+        </div>
+        <div class="skill-card skill-card-center">
+          <img src="bootstrap.webp" alt="Bootstrap" class="skill-icon-img" width="72" height="72" />
+          <p class="skill-name">Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-wrap">
+      <h2 class="section-title">Projects</h2>
+      <div class="section-rule"></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-label">No. 01</span>
+          <div class="project-preview-wrap">
+            <img src="home website.png" alt="Beach resort website preview" class="project-preview" />
+          </div>
+          <h3 class="project-title">Beach Resort Website</h3>
+          <p class="project-desc">A fully designed website for a beach resort, featuring amenities, room listings, and a beautiful visual layout to attract guests.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Bootstrap</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <span class="project-label">No. 02</span>
+          <div class="project-preview-wrap">
+            <img src="laptop.png" alt="Online ordering simulator logo" class="project-preview" />
+          </div>
+          <h3 class="project-title">Online Ordering Simulator</h3>
+          <p class="project-desc">A fully interactive ordering platform that provides a seamless experience for browsing products, managing orders, and completing purchases.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-wrap">
+      <h2 class="section-title">Contact</h2>
+      <div class="section-rule"></div>
+      <p class="contact-intro">Whether you have a project in mind my inbox is open.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <h3 class="contact-card-label">Email</h3>
+          <p class="contact-card-value">estremoshancy@gmail.com</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <h3 class="contact-card-label">Phone</h3>
+          <p class="contact-card-value">+63 963 571 0498</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
